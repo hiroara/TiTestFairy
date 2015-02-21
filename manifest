@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.0.1
+apiversion: 2
+description: This is wrapper for SDK of TestFairy
+author: Hiroki Arai
+license: The MIT License (MIT)
+copyright: Copyright (c) 2015 by Hiroki Arai
+
+
+# these should not be edited
+name: TiTestFairy
+moduleid: com.arihiro.titestfairy
+guid: e2974ca1-a63a-4634-8d3d-9c488fa4186e
+platform: iphone
+minsdk: 3.4.0.GA
