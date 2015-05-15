@@ -144,7 +144,7 @@
 				F585B19C1A98591D00071856 /* upload-dsym.sh */,
 			);
 			name = TestFairy;
-			path = "TestFairySDK-1.3.0";
+			path = "TestFairySDK-1.4.4";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,9 +268,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/TestFairySDK-1.3.0",
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/TestFairySDK-1.4.4";
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
@@ -308,9 +306,7 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/TestFairySDK-1.3.0",
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/TestFairySDK-1.4.4";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ComArihiroTitestfairy;

@@ -2,7 +2,7 @@
 
 ## Description
 
-TODO: Enter your module description here
+Titanium wrapper for TestFairy iOS SDK.
 
 ## Accessing the TiTestFairy Module
 
@@ -10,30 +10,11 @@ To access this module from JavaScript, you would do the following:
 
 	var TiTestFairy = require("com.arihiro.titestfairy");
 
-The TiTestFairy variable is a reference to the Module object.	
+TiTestFairy.begin("..."); // insert your TestFairy token here
 
 ## Reference
 
-TODO: If your module has an API, you should document
-the reference here.
+Most methods available in the TestFairy class should generally be available without changes:
 
-### ___PROJECTNAMEASIDENTIFIER__.function
+https://app.testfairy.com/reference/ios/Classes/TestFairy.html
 
-TODO: This is an example of a module function.
-
-### ___PROJECTNAMEASIDENTIFIER__.property
-
-TODO: This is an example of a module property.
-
-## Usage
-
-TODO: Enter your usage example here
-
-## Author
-
-TODO: Enter your author name, email and other contact
-details you want to share here. 
-
-## License
-
-TODO: Enter your license/legal information here.
