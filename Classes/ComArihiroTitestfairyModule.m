@@ -50,6 +50,7 @@
 
 -(void)pushFeedbackController:(id)args
 {
+    ENSURE_UI_THREAD_0_ARGS;
     [TestFairy pushFeedbackController];
     return;
 }
