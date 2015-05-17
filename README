@@ -94,7 +94,7 @@ Register your module with your application by editing `tiapp.xml` and adding you
 Example:
 
 <modules>
-	<module version="0.0.1">com.arihiro.titestfairy</module>
+	<module version="0.2.0">com.arihiro.titestfairy</module>
 </modules>
 
 When you run your project, the compiler will know automatically compile in your module
